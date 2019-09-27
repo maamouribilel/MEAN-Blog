@@ -1,0 +1,33 @@
+{
+  "name": "mean-blog",
+  "version": "1.0.0",
+  "description": "MEAN stack Blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maamouribilel/MEAN-Blog.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Angular8",
+    "Blog",
+    "Application",
+    "Node",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Bilel Maamouri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maamouribilel/MEAN-Blog/issues"
+  },
+  "homepage": "https://github.com/maamouribilel/MEAN-Blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
