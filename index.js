@@ -4,6 +4,7 @@ const express = require('express');
 const router = express.Router();
 // Mongoose
 const mongoose = require('mongoose');
+mongoose.set('useCreateIndex', true);
 // import config
 const config = require('./config/database');
 const path = require('path');

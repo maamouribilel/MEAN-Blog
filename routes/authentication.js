@@ -5,9 +5,6 @@ const User = require('../models/user');
 module.exports = (router) => {
 
     router.post('/register', (req, res) => {
-        //    req.body.email;
-        //    req.body.username;
-        //    req.body.password;
         if (!req.body.email) {
             res.json({
                 success: false,
@@ -30,13 +27,13 @@ module.exports = (router) => {
                 password: req.body.password
             });
             // save the new user
-            user.save((err)=>{
-                if(err){
+            user.save((err) => {
+                if (err) {
                     res.json({
                         success: false,
                         message: 'Could not save user. Error : ', err
                     });
-                }else{
+                } else {
                     res.json({
                         success: true,
                         message: 'User Saved!'
