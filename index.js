@@ -11,6 +11,9 @@ const path = require('path');
 const authentication = require('./routes/authentication')(router);
 // Body parser
 const bodyParser = require('body-parser');
+// cors module
+const cors = require('cors');
+
 // connect to mongoose
 mongoose.connect(config.uri, {
     useNewUrlParser: true,
@@ -24,6 +27,12 @@ mongoose.connect(config.uri, {
 });
 // initialize express
 const app = express();
+
+// cors config  - only in dev mode
+app.use(cors({
+    origin:'http://localhost:4200'
+}))
+
 
 // create application/x-www-form-urlencoded parser
 app.use(bodyParser.urlencoded({ extended: false }));

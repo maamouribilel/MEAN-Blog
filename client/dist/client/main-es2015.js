@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\r\n<div class=\"container\">\r\n<router-outlet></router-outlet>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<div class=\"container\">\n<router-outlet></router-outlet>\n</div>");
 
 /***/ }),
 
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>dashboard works!</p>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p>dashboard works!</p>\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-sm navbar-dark bg-dark\">\r\n    <a class=\"navbar-brand\" routerLink=\"\">MEAN Blog</a>\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExample03\"\r\n        aria-controls=\"navbarsExample03\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbar\">\r\n        <ul class=\"navbar-nav mr-auto\">\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\" [routerLinkActiveOptions]=\"{exact:true}\">\r\n                <a class=\"nav-link\" routerLink=\"\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\r\n                <a class=\"nav-link\" routerLink=\"dashboard\">Dashboard</a>\r\n            </li>\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\r\n                <a class=\"nav-link\" routerLink=\"dashboard\">Profile</a>\r\n            </li>\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\r\n                <a class=\"nav-link\" routerLink=\"dashboard\">Blog</a>\r\n            </li>            \r\n        </ul>\r\n            <ul class=\"navbar-nav \">\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\r\n                <a class=\"nav-link\" routerLink=\"dashboard\">Login</a>\r\n            </li>\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\r\n                <a class=\"nav-link\" routerLink=\"dashboard\">Logout</a>\r\n            </li>\r\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\r\n                <a class=\"nav-link\" routerLink=\"dashboard\">Register</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</nav>");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-sm navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" routerLink=\"\">MEAN Blog</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExample03\"\n        aria-controls=\"navbarsExample03\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n    </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbar\">\n        <ul class=\"navbar-nav mr-auto\">\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\" [routerLinkActiveOptions]=\"{exact:true}\">\n                <a class=\"nav-link\" routerLink=\"\">Home <span class=\"sr-only\">(current)</span></a>\n            </li>\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\n                <a class=\"nav-link\" routerLink=\"dashboard\">Dashboard</a>\n            </li>\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\n                <a class=\"nav-link\" routerLink=\"dashboard\">Profile</a>\n            </li>\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\n                <a class=\"nav-link\" routerLink=\"dashboard\">Blog</a>\n            </li>            \n        </ul>\n            <ul class=\"navbar-nav \">\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\n                <a class=\"nav-link\" routerLink=\"dashboard\">Login</a>\n            </li>\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\n                <a class=\"nav-link\" routerLink=\"dashboard\">Logout</a>\n            </li>\n            <li class=\"nav-item\" [routerLinkActive]=\"'active'\">\n                <a class=\"nav-link\" routerLink=\"register\">Register</a>\n            </li>\n        </ul>\n    </div>\n</nav>\n<br><br>");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"jumbotron text-center\">\r\n    <h1>MEAN Stack Application</h1>\r\n    <p class=\"lead\">Welcome to the MEAN Stack Application by <strong>David Acosta</strong></p>\r\n    <div>\r\n      <a href=\"#\" class=\"btn btn-primary\">Register</a>\r\n      <a href=\"#\" class=\"btn btn-default\">Login</a>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-6 col-md-4\">\r\n      <div class=\"thumbnail\">\r\n        <img src=\"https://image.flaticon.com/icons/svg/417/417745.svg\" alt=\"placeholder image\" width=\"140\" height=\"140\">\r\n        <div class=\"caption\">\r\n          <h3>MongoDB</h3>\r\n          <p>MongoDB is a free and open-source cross-platform document-oriented database program. This NoSQL database program uses JSON-like documents with schemas.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"col-sm-6 col-md-4\">\r\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417746.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\r\n        <div class=caption>\r\n          <h3>ExpressJS</h3>\r\n          <p>Express.js is a Node.js framework. Node.js is a platform that allows JavaScript to be used outside the Web Browsers, for creating web and network applications.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"col-sm-6 col-md-4\">\r\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417751.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\r\n        <div class=caption>\r\n          <h3>Angular 2</h3>\r\n          <p>Angular is a development platform for building mobile and desktop web applications. Ut dignissim eleifend maximus. Ut dignissim eleifend maximus. Ut dignissim eleifend.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"col-sm-6 col-md-4\">\r\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417754.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\r\n        <div class=caption>\r\n          <h3>NodeJS</h3>\r\n          <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"col-sm-6 col-md-4\">\r\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417768.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\r\n        <div class=caption>\r\n          <h3>Lorem Ipsum</h3>\r\n          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  \r\n    <div class=\"col-sm-6 col-md-4\">\r\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417764.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\r\n        <div class=caption>\r\n          <h3>Lorem Ipsum</h3>\r\n          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  \r\n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"jumbotron text-center\">\n    <h1>MEAN Stack Application</h1>\n    <p class=\"lead\">Welcome to the MEAN Stack Application by <strong>David Acosta</strong></p>\n    <div>\n      <a routerLink=\"register\" class=\"btn btn-primary\">Register</a>\n      <a href=\"#\" class=\"btn btn-default\">Login</a>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-6 col-md-4\">\n      <div class=\"thumbnail\">\n        <img src=\"https://image.flaticon.com/icons/svg/417/417745.svg\" alt=\"placeholder image\" width=\"140\" height=\"140\">\n        <div class=\"caption\">\n          <h3>MongoDB</h3>\n          <p>MongoDB is a free and open-source cross-platform document-oriented database program. This NoSQL database program uses JSON-like documents with schemas.</p>\n        </div>\n      </div>\n    </div>\n  \n    <div class=\"col-sm-6 col-md-4\">\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417746.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\n        <div class=caption>\n          <h3>ExpressJS</h3>\n          <p>Express.js is a Node.js framework. Node.js is a platform that allows JavaScript to be used outside the Web Browsers, for creating web and network applications.</p>\n        </div>\n      </div>\n    </div>\n  \n    <div class=\"col-sm-6 col-md-4\">\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417751.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\n        <div class=caption>\n          <h3>Angular 2</h3>\n          <p>Angular is a development platform for building mobile and desktop web applications. Ut dignissim eleifend maximus. Ut dignissim eleifend maximus. Ut dignissim eleifend.</p>\n        </div>\n      </div>\n    </div>\n  \n    <div class=\"col-sm-6 col-md-4\">\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417754.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\n        <div class=caption>\n          <h3>NodeJS</h3>\n          <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</p>\n        </div>\n      </div>\n    </div>\n  \n    <div class=\"col-sm-6 col-md-4\">\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417768.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\n        <div class=caption>\n          <h3>Lorem Ipsum</h3>\n          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n        </div>\n      </div>\n    </div>\n  \n    <div class=\"col-sm-6 col-md-4\">\n      <div class=thumbnail> <img src=\"https://image.flaticon.com/icons/svg/417/417764.svg\" alt=\"Generic placeholder image\" width=\"140\" height=\"140\">\n        <div class=caption>\n          <h3>Lorem Ipsum</h3>\n          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n        </div>\n      </div>\n    </div>\n  \n  </div>");
 
 /***/ }),
 
@@ -84,7 +84,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>not-found works!</p>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p>not-found works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/register/register.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/register/register.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<form [formGroup]=\"form\" (submit)=\"onRegisterSubmit()\">\n  <div class=\"form-group\">\n    <label for=\"username\">Username</label>\n    <div [ngClass]=\"{'was-validated': form.get('username').valid}\">\n      <input type=\"text\" name=\"username\" class=\"form-control\" autocomplete=\"off\" placeholder=\"*Username\"\n        formControlName=\"username\">\n    </div>\n    <div class=\"inputError\" *ngIf=\"!form.get('username').valid && form.get('username').touched\"><small> Please enter a\n        valid username.</small></div>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"email\">E-mail</label>\n    <div [ngClass]=\"{'was-validated': form.get('email').valid}\">\n      <input type=\"email\" name=\"email\" class=\"form-control\" autocomplete=\"off\" placeholder=\"*E-mail\"\n        formControlName=\"email\">\n    </div>\n    <div class=\"inputError\" *ngIf=\"!form.get('email').valid && form.get('email').touched\">\n      <ul>\n        <li *ngIf=\"form.controls['email'].errors.required\"><small> Please enter a valid e-mail.</small></li>\n        <li *ngIf=\"form.controls['email'].errors.email\"><small> Please enter a valid e-mail syntax.</small></li>\n        <li *ngIf=\"form.controls['email'].errors.minlength\"><small > E-mail must be at least 8 characters.</small></li>\n      </ul>\n    </div>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"password\">Password</label>\n    <div [ngClass]=\"{'was-validated': form.get('password').valid}\">\n      <input type=\"password\" name=\"password\" class=\"form-control\" autocomplete=\"off\" placeholder=\"*Password\"\n        formControlName=\"password\">\n    </div>\n    <div class=\"inputError\" *ngIf=\"!form.get('password').valid && form.get('password').touched\"><small> Please enter a\n        valid password.</small></div>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"confirm\">Confirm Password</label>\n    <div [ngClass]=\"{'was-validated': form.get('confirm').valid}\">\n      <input type=\"password\" name=\"confirm\" class=\"form-control\" autocomplete=\"off\" placeholder=\"*Confirm Password\"\n        formControlName=\"confirm\">\n    </div>\n    <div class=\"inputError\" *ngIf=\"!form.get('confirm').valid && form.get('confirm').touched\">\n        <ul>\n\n                <li *ngIf=\"form.errors['matchingPasswords']\">Password do not match</li>\n        </ul>\n    </div>\n  </div>\n\n  <input type=\"submit\" class=\"btn btn-primary\" value=\"Submit\">\n\n</form>\n");
 
 /***/ }),
 
@@ -333,6 +346,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
 /* harmony import */ var _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/not-found/not-found.component */ "./src/app/components/not-found/not-found.component.ts");
 /* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
+/* harmony import */ var _components_register_register_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/register/register.component */ "./src/app/components/register/register.component.ts");
+
 
 
 
@@ -341,6 +356,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
+    { path: 'register', component: _components_register_register_component__WEBPACK_IMPORTED_MODULE_6__["RegisterComponent"] },
     { path: 'dashboard', component: _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_5__["DashboardComponent"] },
     { path: '404', component: _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_4__["NotFoundComponent"] },
     { path: '**', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] }
@@ -415,12 +431,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
-/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/not-found/not-found.component */ "./src/app/components/not-found/not-found.component.ts");
-/* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
+/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
+/* harmony import */ var _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/not-found/not-found.component */ "./src/app/components/not-found/not-found.component.ts");
+/* harmony import */ var _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/dashboard/dashboard.component */ "./src/app/components/dashboard/dashboard.component.ts");
+/* harmony import */ var _components_register_register_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/register/register.component */ "./src/app/components/register/register.component.ts");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./services/auth.service */ "./src/app/services/auth.service.ts");
+
+
+
+
 
 
 
@@ -435,18 +459,22 @@ let AppModule = class AppModule {
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-            _components_header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"],
-            _components_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
-            _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_7__["NotFoundComponent"],
-            _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"]
+            _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+            _components_header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
+            _components_home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"],
+            _components_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_9__["NotFoundComponent"],
+            _components_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_10__["DashboardComponent"],
+            _components_register_register_component__WEBPACK_IMPORTED_MODULE_11__["RegisterComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"]
         ],
-        providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+        providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_12__["AuthService"]],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })
 ], AppModule);
 
@@ -630,6 +658,133 @@ NotFoundComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/components/register/register.component.css":
+/*!************************************************************!*\
+  !*** ./src/app/components/register/register.component.css ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcmVnaXN0ZXIvcmVnaXN0ZXIuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/components/register/register.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/components/register/register.component.ts ***!
+  \***********************************************************/
+/*! exports provided: RegisterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterComponent", function() { return RegisterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
+
+
+
+
+let RegisterComponent = class RegisterComponent {
+    constructor(formBuilder, auth) {
+        this.formBuilder = formBuilder;
+        this.auth = auth;
+        this.createForm();
+    }
+    ngOnInit() {
+    }
+    createForm() {
+        this.form = this.formBuilder.group({
+            email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required,
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].email,
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].minLength(8),
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].maxLength(40)
+                ])],
+            username: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            password: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            confirm: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+        });
+        /*  }, { validator: this.matchingPasswords('password', 'confirm') }); */
+    }
+    onRegisterSubmit() {
+        const user = {
+            email: this.form.get('email').value,
+            username: this.form.get('username').value,
+            password: this.form.get('password').value,
+        };
+        this.auth.registerUser(user).subscribe(data => {
+            console.log(data);
+        });
+    }
+};
+RegisterComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"] }
+];
+RegisterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-register',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./register.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/register/register.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./register.component.css */ "./src/app/components/register/register.component.css")).default]
+    })
+], RegisterComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/auth.service.ts":
+/*!******************************************!*\
+  !*** ./src/app/services/auth.service.ts ***!
+  \******************************************/
+/*! exports provided: AuthService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthService", function() { return AuthService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+
+
+
+
+let AuthService = class AuthService {
+    constructor(http) {
+        this.http = http;
+        this.domain = 'http://localhost:3000';
+        this.httpOptions = {
+            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
+                'Content-Type': 'application/json',
+                'Authorization': 'my-auth-token'
+            })
+        };
+    }
+    registerUser(user) {
+        return this.http.post(this.domain + '/authentication/register', user).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((res) => {
+            return res.json();
+        }));
+    }
+};
+AuthService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+];
+AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], AuthService);
+
+
+
+/***/ }),
+
 /***/ "./src/environments/environment.ts":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -695,7 +850,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\bilel\Desktop\Practice\GITHUB\MEAN-Blog\client\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/bilel/Desktop/Bilel/MEAN-Blog/client/src/main.ts */"./src/main.ts");
 
 
 /***/ })
